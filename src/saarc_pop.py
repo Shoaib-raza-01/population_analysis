@@ -23,3 +23,4 @@ with open('../dataset/population-estimates_csv.csv', 'r') as file:
     plt.xticks(rotation=90)
     plt.tight_layout()
     plt.savefig('../images/SAARC_over_the_year.png')
+    

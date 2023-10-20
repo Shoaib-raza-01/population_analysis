@@ -1,8 +1,9 @@
+"""csv Matplotlib"""
 import csv
 import matplotlib.pyplot as plt
 
 def execute():
-    with open('../dataset/population-estimates_csv.csv', 'r') as file:
+    with open('../dataset/population-estimates_csv.csv', 'r', encoding="utf-8") as file:
         reader = csv.DictReader(file)
         india_over_the_year = {}
 

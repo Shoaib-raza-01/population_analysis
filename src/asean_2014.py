@@ -13,7 +13,7 @@ with open("../dataset/population-estimates_csv.csv", 'r') as file:
 
         if year == '2014':
             if country in ASEAN_COUNTRY:
-                asean_pop_2014[country] = population
+                asean_pop_2014[country] = int(float(population))
         # print(row)
     plt.bar(asean_pop_2014.keys(), asean_pop_2014.values())
     plt.xlabel("Country")
