@@ -8,11 +8,7 @@ __pycache__/
 
 #explicitly ignoring myself (files)
 #ignoring virtual env
-unpop.env
-/unpop.env
-../unpop.env
-../unpop
-unpop
+unpop.env/
 
 # Distribution / packaging
 .Python
