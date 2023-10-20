@@ -58,5 +58,5 @@ with open("../dataset/population-estimates_csv.csv", 'r') as file:
 
 
 
-    plt.savefig('../images/test.png')
+    plt.savefig('../images/group_chart.png')
     
